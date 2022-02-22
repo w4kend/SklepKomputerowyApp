@@ -1,6 +1,6 @@
 # SklepKomputerowyApp
 
-Aplikacja standalone z funkcjonalnośćią 
+Aplikacja standalone z funkcjonalnośćią
   -logowania, tworzenia kont dla użytkowników,
   -możliwością podziału towarów na kategorie, 
   -dodawania oraz sprzedawania towaru. 
