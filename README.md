@@ -4,3 +4,5 @@ W zespole opracowaliśmy funkcjonalność projektu ze strony klientowej, czyli z
 - możliwośc logowania oraz tworzenia kont dla użytkowników (klientów)
 - podziąl sprzętu na kategorie ,karty graficzne i tp
 - dodawanie sprzętu do koszyka oraz sprzedaż
+
+zrzuty ekrany oraz pozostała część dokumentacji znajduje się w katalogu "./doc/sprawozdanie projekt nr 24.pdf"
