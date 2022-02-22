@@ -1,8 +1,8 @@
 # SklepKomputerowyApp
-W danym projekcie została użyta baza PostgreSQL wersji 42.2.19 oraz biblioteka javaFx wersji 13,
-W zespole opracowaliśmy funkcjonalność projektu ze strony klientowej, czyli zostały dodane takie funkcjonalnośći jak 
-- możliwośc logowania oraz tworzenia kont dla użytkowników (klientów)
-- podziąl sprzętu na kategorie ,karty graficzne i tp
-- dodawanie sprzętu do koszyka oraz sprzedaż
+
+Aplikacja standalone z funkcjonalnośćią 
+  -logowania, tworzenia kont dla użytkowników,
+  -możliwością podziału towarów na kategorie, 
+  -dodawania oraz sprzedawania towaru. 
 
 zrzuty ekrany oraz pozostała część dokumentacji znajduje się w katalogu "./doc/sprawozdanie projekt nr 24.pdf"
