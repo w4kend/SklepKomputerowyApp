@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainMenu">
+   <children>
+      <TextArea fx:id="NazwaSklepu" editable="false" layoutX="365.0" layoutY="26.0" prefHeight="107.0" prefWidth="647.0" style="-fx-background-color: #2f302f;" text="Welcome in Store Manager">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="WyborDzialu" editable="false" layoutX="656.0" layoutY="231.0" prefHeight="43.0" prefWidth="454.0" style="-fx-background-color: #1fc51c;" text="Choose department">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+      <MenuButton layoutX="656.0" layoutY="322.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="222.0" style="-fx-background-color: #eda711;" text=" ODZIEŻ" textFill="#1fc51c">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="656.0" layoutY="382.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="222.0" style="-fx-background-color: #eda711;" text="SPRZĘT I AKCESORIA">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="656.0" layoutY="443.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="222.0" style="-fx-background-color: #eda711;" text="GRY I KSIĄZKI">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button fx:id="KoszykButton" layoutX="73.0" layoutY="53.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="176.0" style="-fx-background-color: #eda711;" text="KOSZYK" />
+      <Button fx:id="DzialOdziezButton" layoutX="935.0" layoutY="328.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="DzialSprzetButton" layoutX="935.0" layoutY="388.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="DzialGryButton" layoutX="935.0" layoutY="449.0" mnemonicParsing="false" text="Button" />
+      <TableView fx:id="TabelaProduktow" layoutX="141.0" layoutY="154.0" prefHeight="492.0" prefWidth="502.0" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="141.0" AnchorPane.rightAnchor="556.6" AnchorPane.topAnchor="154.0">
+        <columns>
+          <TableColumn fx:id="col_nazwa" prefWidth="285.80006408691406" text="Nazwa" />
+            <TableColumn fx:id="col_cena" minWidth="8.600006103515625" prefWidth="215.79998779296875" text="Cena" />
+        </columns>
+      </TableView>
+      <Button fx:id="DodajButton" layoutX="39.0" layoutY="266.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="76.0" text="Dodaj" />
+      <Button fx:id="UsunButton" layoutX="39.0" layoutY="347.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="76.0" text="Usuń" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
