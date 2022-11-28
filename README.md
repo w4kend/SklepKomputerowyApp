@@ -9,7 +9,7 @@ Aplikacja standalone z funkcjonalnością
 
 Zrzuty ekranu oraz pozostała część dokumentacji znajduje się w katalogu "./doc/sprawozdanie projekt nr 24.pdf"
 <br>----------------------------<br>
-Standalone CRUD application №1 with functionality
+Standalone CRUD application with functionality
 
 - logging, creating accounts for users,
 
